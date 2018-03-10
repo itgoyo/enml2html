@@ -1,0 +1,63 @@
+{
+  "_from": "enml2html@^0.3.1",
+  "_id": "enml2html@0.3.1",
+  "_inBundle": false,
+  "_integrity": "sha1-DlbxbOj07plGU9CKoQrMg8X2t/A=",
+  "_location": "/enml2html",
+  "_phantomChildren": {
+    "boolbase": "1.0.0",
+    "dom-serializer": "0.1.0",
+    "domelementtype": "1.3.0",
+    "entities": "1.1.1",
+    "htmlparser2": "3.8.3",
+    "nth-check": "1.0.1"
+  },
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "enml2html@^0.3.1",
+    "name": "enml2html",
+    "escapedName": "enml2html",
+    "rawSpec": "^0.3.1",
+    "saveSpec": null,
+    "fetchSpec": "^0.3.1"
+  },
+  "_requiredBy": [
+    "/everblog-adaptor-hexo-html"
+  ],
+  "_resolved": "https://registry.npmjs.org/enml2html/-/enml2html-0.3.1.tgz",
+  "_shasum": "0e56f16ce8f4ee994653d08aa10acc83c5f6b7f0",
+  "_spec": "enml2html@^0.3.1",
+  "_where": "/Users/itgoyo/Documents/hexo/node_modules/everblog-adaptor-hexo-html",
+  "author": {
+    "name": "nswbmw",
+    "email": "nswbmw1992@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/nswbmw/enml2html/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "cheerio": "^0.19.0"
+  },
+  "deprecated": false,
+  "description": "parse ENML to HTML",
+  "engines": {
+    "node": ">= 4"
+  },
+  "homepage": "https://github.com/nswbmw/enml2html#readme",
+  "keywords": [
+    "enml",
+    "enml2html"
+  ],
+  "main": "lib/enml2html",
+  "name": "enml2html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nswbmw/enml2html.git"
+  },
+  "scripts": {
+    "test": "node test/enml2html.js"
+  },
+  "version": "0.3.1"
+}
